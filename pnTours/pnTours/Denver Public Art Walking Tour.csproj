@@ -1,0 +1,176 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Page1.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Page1.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="images\atTheLibrary.jpg" />
+    <None Remove="images\bigSweep.jpg" />
+    <None Remove="images\bronchoBuster.jpg" />
+    <None Remove="images\cheebaHut.jpg" />
+    <None Remove="images\chessTables.jpg" />
+    <None Remove="images\cowAndCalf.jpg" />
+    <None Remove="images\denverTour.jpg" />
+    <None Remove="images\fiberglassDancers.jpg" />
+    <None Remove="images\heardOfCows.jpg" />
+    <None Remove="images\iSeeWhatYouMean.jpg" />
+    <None Remove="images\onTheWarPath.jpg" />
+    <None Remove="images\petros.jpg" />
+    <None Remove="images\pioneerFountain.jpg" />
+    <None Remove="images\seaLionFountain.jpg" />
+    <None Remove="images\unionSpire.jpg" />
+    <None Remove="images\yearling.jpg" />
+    <None Remove="languages\english.xml" />
+    <None Remove="languages\german.xml" />
+    <None Remove="languages\spanish.xml" />
+    <None Remove="naration\de_atTheLibrary.mp3" />
+    <None Remove="naration\de_bigSweep.mp3" />
+    <None Remove="naration\de_bronchoBuster.mp3" />
+    <None Remove="naration\de_chessTables.mp3" />
+    <None Remove="naration\de_cowAndCalf.mp3" />
+    <None Remove="naration\de_fiberglassDancers.mp3" />
+    <None Remove="naration\de_heardOfCows.mp3" />
+    <None Remove="naration\de_iSeeWhatYouMean.mp3" />
+    <None Remove="naration\de_onTheWarPath.mp3" />
+    <None Remove="naration\de_petros.mp3" />
+    <None Remove="naration\de_pioneerFountain.mp3" />
+    <None Remove="naration\de_seaLionFountain.mp3" />
+    <None Remove="naration\de_tourDescription.mp3" />
+    <None Remove="naration\de_unionSpire.mp3" />
+    <None Remove="naration\de_yearlin.mp3" />
+    <None Remove="naration\en_atTheLibrary.mp3" />
+    <None Remove="naration\en_bigSweep.mp3" />
+    <None Remove="naration\en_bronchoBuster.mp3" />
+    <None Remove="naration\en_chessTables.mp3" />
+    <None Remove="naration\en_cowAndCalf.mp3" />
+    <None Remove="naration\en_fiberglassDancers.mp3" />
+    <None Remove="naration\en_heardOfCows.mp3" />
+    <None Remove="naration\en_iSeeWhatYouMean.mp3" />
+    <None Remove="naration\en_onTheWarPath.mp3" />
+    <None Remove="naration\en_petros.mp3" />
+    <None Remove="naration\en_pioneerFountain.mp3" />
+    <None Remove="naration\en_seaLionFountain.mp3" />
+    <None Remove="naration\en_tourDescription.mp3" />
+    <None Remove="naration\en_unionSpire.mp3" />
+    <None Remove="naration\en_yearling.mp3" />
+    <None Remove="naration\sp_atTheLibrary.mp3" />
+    <None Remove="naration\sp_bigSweep.mp3" />
+    <None Remove="naration\sp_bronchoBuster.mp3" />
+    <None Remove="naration\sp_chessTables.mp3" />
+    <None Remove="naration\sp_cowAndCalf.mp3" />
+    <None Remove="naration\sp_fiberglassDancers.mp3" />
+    <None Remove="naration\sp_heardOfCows.mp3" />
+    <None Remove="naration\sp_iSeeWhatYouMean.mp3" />
+    <None Remove="naration\sp_onTheWarPath.mp3" />
+    <None Remove="naration\sp_petros.mp3" />
+    <None Remove="naration\sp_pioneerFountain.mp3" />
+    <None Remove="naration\sp_seaLionFountain.mp3" />
+    <None Remove="naration\sp_tourDescription.mp3" />
+    <None Remove="naration\sp_unionSpire.mp3" />
+    <None Remove="naration\sp_yearling.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\atTheLibrary.jpg" />
+    <EmbeddedResource Include="images\bigSweep.jpg" />
+    <EmbeddedResource Include="images\bronchoBuster.jpg" />
+    <EmbeddedResource Include="images\cheebaHut.jpg" />
+    <EmbeddedResource Include="images\chessTables.jpg" />
+    <EmbeddedResource Include="images\cowAndCalf.jpg" />
+    <EmbeddedResource Include="images\denverTour.jpg" />
+    <EmbeddedResource Include="images\fiberglassDancers.jpg" />
+    <EmbeddedResource Include="images\heardOfCows.jpg" />
+    <EmbeddedResource Include="images\iSeeWhatYouMean.jpg" />
+    <EmbeddedResource Include="images\onTheWarPath.jpg" />
+    <EmbeddedResource Include="images\petros.jpg" />
+    <EmbeddedResource Include="images\pioneerFountain.jpg" />
+    <EmbeddedResource Include="images\seaLionFountain.jpg" />
+    <EmbeddedResource Include="images\unionSpire.jpg" />
+    <EmbeddedResource Include="images\yearling.jpg" />
+    <EmbeddedResource Include="languages\english.xml" />
+    <EmbeddedResource Include="languages\german.xml" />
+    <EmbeddedResource Include="languages\spanish.xml" />
+    <EmbeddedResource Include="naration\de_atTheLibrary.mp3" />
+    <EmbeddedResource Include="naration\de_bigSweep.mp3" />
+    <EmbeddedResource Include="naration\de_bronchoBuster.mp3" />
+    <EmbeddedResource Include="naration\de_chessTables.mp3" />
+    <EmbeddedResource Include="naration\de_cowAndCalf.mp3" />
+    <EmbeddedResource Include="naration\de_fiberglassDancers.mp3" />
+    <EmbeddedResource Include="naration\de_heardOfCows.mp3" />
+    <EmbeddedResource Include="naration\de_iSeeWhatYouMean.mp3" />
+    <EmbeddedResource Include="naration\de_onTheWarPath.mp3" />
+    <EmbeddedResource Include="naration\de_petros.mp3" />
+    <EmbeddedResource Include="naration\de_pioneerFountain.mp3" />
+    <EmbeddedResource Include="naration\de_seaLionFountain.mp3" />
+    <EmbeddedResource Include="naration\de_tourDescription.mp3" />
+    <EmbeddedResource Include="naration\de_unionSpire.mp3" />
+    <EmbeddedResource Include="naration\de_yearlin.mp3" />
+    <EmbeddedResource Include="naration\en_atTheLibrary.mp3" />
+    <EmbeddedResource Include="naration\en_bigSweep.mp3" />
+    <EmbeddedResource Include="naration\en_bronchoBuster.mp3" />
+    <EmbeddedResource Include="naration\en_chessTables.mp3" />
+    <EmbeddedResource Include="naration\en_cowAndCalf.mp3" />
+    <EmbeddedResource Include="naration\en_fiberglassDancers.mp3" />
+    <EmbeddedResource Include="naration\en_heardOfCows.mp3" />
+    <EmbeddedResource Include="naration\en_iSeeWhatYouMean.mp3" />
+    <EmbeddedResource Include="naration\en_onTheWarPath.mp3" />
+    <EmbeddedResource Include="naration\en_petros.mp3" />
+    <EmbeddedResource Include="naration\en_pioneerFountain.mp3" />
+    <EmbeddedResource Include="naration\en_seaLionFountain.mp3" />
+    <EmbeddedResource Include="naration\en_tourDescription.mp3" />
+    <EmbeddedResource Include="naration\en_unionSpire.mp3" />
+    <EmbeddedResource Include="naration\en_yearling.mp3" />
+    <EmbeddedResource Include="naration\sp_atTheLibrary.mp3" />
+    <EmbeddedResource Include="naration\sp_bigSweep.mp3" />
+    <EmbeddedResource Include="naration\sp_bronchoBuster.mp3" />
+    <EmbeddedResource Include="naration\sp_chessTables.mp3" />
+    <EmbeddedResource Include="naration\sp_cowAndCalf.mp3" />
+    <EmbeddedResource Include="naration\sp_fiberglassDancers.mp3" />
+    <EmbeddedResource Include="naration\sp_heardOfCows.mp3" />
+    <EmbeddedResource Include="naration\sp_iSeeWhatYouMean.mp3" />
+    <EmbeddedResource Include="naration\sp_onTheWarPath.mp3" />
+    <EmbeddedResource Include="naration\sp_petros.mp3" />
+    <EmbeddedResource Include="naration\sp_pioneerFountain.mp3" />
+    <EmbeddedResource Include="naration\sp_seaLionFountain.mp3" />
+    <EmbeddedResource Include="naration\sp_tourDescription.mp3" />
+    <EmbeddedResource Include="naration\sp_unionSpire.mp3" />
+    <EmbeddedResource Include="naration\sp_yearling.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.4.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="4.8.0.1269" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Mono.Android">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v9.0\Mono.Android.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="StopDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnTour>
+  <languageNumber>1</languageNumber>
+  <languageDisplayName>Español</languageDisplayName>
+  <tourName>Recorrido a pie por el arte público del centro de Denver</tourName>
+  <tourDescription>
+    La ciudad de Denver tiene una fuerte cultura de apoyo al arte público. Cualquier proyecto de mejora de capital de más de 1 millón de dólares debe destinar el 1% de su presupuesto para incluir arte público. Durante los últimos 20 años, esta regla ha resultado en la instalación de más de 150 piezas de arte público en la ciudad.
+
+    Este recorrido a pie lo guiará a algunas de las piezas de arte público más populares del centro de la ciudad. Si eres nuevo en la ciudad, o simplemente estás viciando, este tour también es una buena oportunidad para "orientarte" sobre el centro de la ciudad. Incluye piezas en el 16th Street Mall, a lo largo del Cherry Creek Trail, fuera del edificio Capital y en los terrenos del Museo de Arte de Denver.
+
+    Mientras camina entre paradas, asegúrese de mantener los ojos bien abiertos para ver más arte público, el centro de la ciudad está lleno de demasiados murales y estatuas para enumerarlos todos.
+
+    Un agradecimiento especial a la Oficina de Turismo de Denver por inspirar esta aplicación. https://www.denver.org/things-to-do/itineraries/downtown-public-art/
+  </tourDescription>
+  <tourImage>denverTour.jpg</tourImage>
+  <tourNaration>sp_tourDescription.mp3</tourNaration>
+  <stop>
+    <stopNumber>1</stopNumber>
+    <stopName>Vaca y Ternera Escocesa Angus</stopName>
+    <stopDesc>
+      Artista: Dan Ostermiller
+      Año: 2001
+
+      Ostermiller diseñó esta escultura de vaca y ternero para que fuera tres veces más grande que la vida. Creó las esculturas dentro de su estudio, pero cuando las terminó, eran demasiado grandes para pasar por la puerta. Así que Ostermiller tuvo que cortar la vaca y el ternero en pedazos y volver a ensamblarlos afuera.
+
+      Haga un pequeño viaje lateral por 12th Ave hasta Laven Deli Company para tomar una taza de café o un sándwich, luego gire a la derecha en Banncock St para encontrar el Museo Kirkland de Bellas Artes y Arte Decorativo y el Museo Clyfford Still.
+    </stopDesc>
+    <stopImage>cowAndCalf.jpg</stopImage>
+    <stopNaration>sp_cowAndCalf.mp3</stopNaration>
+    <stopLat>39.7354423</stopLat>
+    <stopLng>-104.989106</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>2</stopNumber>
+    <stopName>Gran Barrido</stopName>
+    <stopDesc>
+      Artista: Coosje van Bruggen and Claes Oldenburg
+      Año: 2006
+
+      Olendburg y van Bruggen forman un equipo formado por marido y mujer, famosos por su enorme réplica de objetos comunes. Hecho de aluminio y acero inoxidable, este recogedor de 40 pies de alto se inspiró en la luz del sol brillante y los fuertes vientos que se encuentran en las praderas de gran tamaño de Colorado.
+
+      The Big Sweep se encargó en honor a Tom y Noel Congdon. Los Congdon son filántropos locales que administran el Fondo Conmemorativo Edward C. Congdon, que no solo ayuda a apoyar la educación artística local, sino que también contribuye a causas ambientales y humanitarias locales.
+    </stopDesc>
+    <stopImage>bigSweep.jpg</stopImage>
+    <stopNaration>sp_bigSweep.mp3</stopNaration>
+    <stopLat>39.736689</stopLat>
+    <stopLng>-104.988962</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>3</stopNumber>
+    <stopName>En la Biblioteca</stopName>
+    <stopDesc>
+      Artista: Barry Rose
+      Año: 1981
+
+      La descripción del Sr. Rose de esta pieza es la siguiente: “En la biblioteca” se creó con estudiantes de Cole Junior High School. Cada estudiante esculpió un libro de la biblioteca. Completé con lo suficiente para hacer el resto que necesitábamos. Hice moldes de cada uno y los glaseé de forma única, y ese fue el proyecto original.
+
+      En febrero de 1997, esta pieza fue reubicada de su instalación original, coincidiendo con la finalización de una ampliación de 500.000 pies cuadrados de la biblioteca.
+    </stopDesc>
+    <stopImage>atTheLibrary.jpg</stopImage>
+    <stopNaration>sp_atTheLibrary.mp3</stopNaration>
+    <stopLat>39.737593</stopLat>
+    <stopLng>-104.987672</stopLng>>
+  </stop>
+  <stop>
+    <stopNumber>4</stopNumber>
+    <stopName>El Añero</stopName>
+    <stopDesc>
+      Artista: Donald Lipski
+      Año: 1997
+
+      El Yearling se instaló originalmente en el Central Park de la ciudad de Nueva York antes de encontrar su hogar para siempre en la Biblioteca de Denver. Lipski dice que tenía la intención de brindar a los niños "una experiencia discordante de escala, que recuerda a la literatura como Los viajes de Gulliver o Alicia en el país de las maravillas". ¿Es un caballo muy pequeño o una silla muy grande? ¡Quién sabe! Pero todos estamos de acuerdo, los caballos en las sillas es la anarquía. ¡Bájate de esa silla, caballo!
+
+      El Yearling ha sido votada como la escultura favorita de los residentes de Denver.
+    </stopDesc>
+    <stopImage>yearling.jpg</stopImage>
+    <stopNaration>sp_yearling.mp3</stopNaration>
+    <stopLat>39.737824</stopLat>
+    <stopLng>-104.988407</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>5</stopNumber>
+    <stopName>Broncho Buster</stopName>
+    <stopDesc>
+      Artista: Alexander Phimister Proctor
+      Año: 1917
+
+      Robert Speer se desempeñó como alcalde de Denver de 1904 a 1912. Durante su mandato, Speer encargó a Proctor la creación de dos monumentos de temática ecuestre para la ciudad. “Broncho Buster” fue la mitad de esa comisión. Evocando la nostalgia por las raíces del viejo oeste de Denver, me parece interesante pensar en el momento en que se hizo. En 1917, el "viejo oeste" había pasado por completo 60 años. El instinto de canonizar los años de juventud era fuerte en un mundo que cambiaba rápidamente. No es sustancialmente diferente al deseo de algunos hoy de pensar en la década de 1950 como un mejor momento en nuestra historia. El jinete sigue el modelo de Bill "Slim" Ridings, un jinete de rodeo local de la época.
+    </stopDesc>
+    <stopImage>bronchoBuster.jpg</stopImage>
+    <stopNaration>sp_bronchoBuster.mp3</stopNaration>
+    <stopLat>39.738910</stopLat>
+    <stopLng>-104.989064</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>6</stopNumber>
+    <stopName>En el Camino de la Guerra</stopName>
+    <stopDesc>
+      Artista: Alexander Phimister Proctor
+      Año: 1922
+
+      La segunda mitad del encargo del alcalde Speer a Proctor es "On The War Trail". Proctor utilizó tres modelos para el jinete durante el proceso de escultura. Jackson Sundown de Nez Pierce, Grey Eagle of the Blackfoot y Eddie Beaver de Browning Montana. Un hombre más inteligente podría dejarlo a broma aquí, pero yo no soy ese hombre.
+    </stopDesc>
+    <stopImage>onTheWarPath.jpg</stopImage>
+    <stopNaration>sp_onTheWarPath.mp3</stopNaration>
+    <stopLat>39.738910</stopLat>
+    <stopLng>-104.988657</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>7</stopNumber>
+    <stopName>Fuente de los Leones Marinos</stopName>
+    <stopDesc>
+      Artista: Robert Garrison
+      Año: 1922
+
+      A medida que pasa rápidamente por la fuente de los leones marinos, esperando desesperadamente evitar el contacto visual con algunos de los residentes no alojados de Denver reunidos en los bancos cercanos, es posible que no se dé cuenta de que los leones marinos están siendo montados por querubines. No pude encontrar información sobre por qué un querubín montaría un león marino, por qué un león marino lo permitiría o qué tiene que ver con Denver. Sugiero que invente su propia historia para responder esas preguntas mientras espera a que cambie la luz, para que pueda cruzar la calle hacia la fuente Pioneer.
+    </stopDesc>
+    <stopImage>seaLionFountain.jpg</stopImage>
+    <stopNaration>sp_seaLionFountain.mp3</stopNaration>
+    <stopLat>39.740160</stopLat>
+    <stopLng>-104.988860</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>8</stopNumber>
+    <stopName>Fuente Pionera</stopName>
+    <stopDesc>
+      Artista: Frederick MacMonnies
+      Año: 1911
+
+      Cuando se concibió originalmente la fuente, se pretendía que un nativo americano estuviera en la parte superior, pero los habitantes de Denver de la época no aceptaban la idea de un nativo parado sobre los colonos blancos representados más abajo en la fuente. Entonces, en cambio, se erigió una estatua de Kit Carson, famoso por su participación en sacar a la fuerza a los pueblos nativos de Colorado y llevarlos a Nuevo México (conocido como el "Long Walk"), en la parte superior de la fuente. Mientras Estados Unidos continúa luchando con su historia de trato a menudo brutal e inhumano de los pueblos nativos, el lugar de honor de Kit Carson en la cima de Pioneer Fountain se convirtió en una fuente de controversia local. En junio de 2020 fue destituido por el Ayuntamiento. El debate continúa si se debe dejar reposar el resto de la fuente.
+    </stopDesc>
+    <stopImage>pioneerFountain.jpg</stopImage>
+    <stopNaration>sp_pioneerFountain.mp3</stopNaration>
+    <stopLat>39.740281</stopLat>
+    <stopLng>-104.987726</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>9</stopNumber>
+    <stopName>Mesas de Ajedrez</stopName>
+    <stopDesc>
+      Artista: Doug Eichelbergr and Susan Wicks
+      Año: 1992
+
+      Si quieres practicar tu juego de apertura y respirar aire fresco al mismo tiempo, estas mesas de ajedrez en el centro comercial de la calle 16 son una gran opción. Necesitará traer sus propias piezas para jugar, pero si las olvidó en casa, este es un lugar excelente para sentarse y descansar los pies. Puede admirar el intrincado mosaico de las mesas mientras toma un refrescante café en uno de los muchos cafés de la zona.
+    </stopDesc>
+    <stopImage>chessTables.jpg</stopImage>
+    <stopNaration>sp_chessTables.mp3</stopNaration>
+    <stopLat>39.747626</stopLat>
+    <stopLng>-104.995395</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>10</stopNumber>
+    <stopName>He Oído Hablar de las Vacas</stopName>
+    <stopDesc>
+      Como probablemente ya se habrá dado cuenta, Denver se enorgullece de su herencia como ciudad del "viejo oeste". Y nada dice el viejo oeste como un oído de vacas. Tenga cuidado de no asustarlos, o comenzará una estampida ... ¡una estampida de DIVERSIÓN!
+    </stopDesc>
+    <stopImage>heardOfCows.jpg</stopImage>
+    <stopNaration>sp_heardOfCows.mp3</stopNaration>
+    <stopLat>39.749459</stopLat>
+    <stopLng>-104.997755</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>11</stopNumber>
+    <stopName>Union Spire</stopName>
+    <stopDesc>
+      Artista: Kevin Oehler
+      Año: 1991
+
+      Aguja de unión, en realidad son dos agujas. Encargado por separado, la aguja inferior mide 13 pies de altura, y la segunda aguja superior agrega 9 pies adicionales a su altura total. Union Spire es un excelente punto de referencia en su camino hacia el sendero Cherry Creek. A lo largo del sendero Cherry Creek hay muchos murales, algunos encargados y otros cuya providencia está menos… oficialmente autorizada.
+    </stopDesc>
+    <stopImage>unionSpire.jpg</stopImage>
+    <stopNaration>sp_unionSpire.mp3</stopNaration>
+    <stopLat>39.749234</stopLat>
+    <stopLng>-105.002659</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>12</stopNumber>
+    <stopName>Petros</stopName>
+    <stopDesc>
+      Artista: Bill Gian
+      Año: 1992
+
+      Petros se inspira en los petroglifos que dejaron los primeros habitantes del suroeste. Este fue el primer trabajo de Gian en este estilo y desde entonces se ha convertido en su sello distintivo. John Grant, el administrador de arte público de Denver, dice "Gian era un artista que nunca había hecho ese tipo de trabajo antes, pero era muy bueno […] Decidimos darle una oportunidad en un nuevo género".
+    </stopDesc>
+    <stopImage>petros.jpg</stopImage>
+    <stopNaration>sp_petros.mp3</stopNaration>
+    <stopLat>39.746576</stopLat>
+    <stopLng>-105.000328</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>13</stopNumber>
+    <stopName>Bailarines de Fibra de Vidrio</stopName>
+    <stopDesc>
+      Artista: Jonathon Borofsky
+      Año: 2003
+
+      Ubicados en el Parque de Esculturas de Artes Escénicas, los bailarines están destinados a invocar un sentimiento de "energía" que refleja la energía del complejo de artes escénicas cercano. El parque es un hermoso espacio verde en el centro de la ciudad y un gran lugar para un picnic por la tarde.
+    </stopDesc>
+    <stopImage>fiberglassDancers.jpg</stopImage>
+    <stopNaration>sp_fiberglassDancers.mp3</stopNaration>
+    <stopLat>39.743042</stopLat>
+    <stopLng>-104.999286</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>14</stopNumber>
+    <stopName>Veo a Que te Refieres</stopName>
+    <stopDesc>
+      Artista: Lawrence Argent
+      Año: 2005
+
+      ¡No hay miel ahí, oso!
+
+      Fuera del centro de convenciones mirando hacia adentro, el gran oso azul agrega un toque de fantasía al centro de la ciudad. Construido específicamente para el nuevo centro de convenciones, Arget dice: "Siempre estoy interesado en lo que podría estar sucediendo allí, el intercambio de información, ideas e ideologías, pero realmente nunca hay ninguna indicación externa de lo que está sucediendo adentro". Mientras se le ocurrían ideas para la escultura, una sequía regional estaba obligando a los osos a ir al centro de la ciudad a buscar comida. Y nació la idea de un oso gigante curioso.
+    </stopDesc>
+    <stopImage>iSeeWhatYouMean.jpg</stopImage>
+    <stopNaration>sp_iSeeWhatYouMean.mp3</stopNaration>
+    <stopLat>39.743631</stopLat>
+    <stopLng>-104.995318</stopLng>
+  </stop>
+</pnTour>

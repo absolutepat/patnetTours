@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnTour>
+  <languageNumber>0</languageNumber>
+  <languageDisplayName>English</languageDisplayName>
+  <tourName>Downtown Denver Public Art Walking Tour</tourName>
+  <tourDescription>
+    The city of Denver has strong culture of supporting public art. Any capital improvement project of more than 1 million dollars must allocate 1% of it’s budget for including public art. Over the past 20 years, this rule has resulted in more than 150 pieces of public art being installed in the city.
+    
+    This walking tour will guide you to some of the most popular pieces of public art in the downtown area. If you are new to town, or even just vitiating, this tour is also a good chance to ‘get your bearings’ about the downtown area. It includes pieces in the 16th Street Mall, along the Cherry Creek Trail, outside the Capital building, and on the Denver Art Museum grounds.
+    
+    While walking between stops, be sure to keep your eyes peeled for even more public art, downtown is a filled with too many murals and statues to list them all.
+
+    Special thanks to the Denver Tourist Board for inspiring this app. https://www.denver.org/things-to-do/itineraries/downtown-public-art/
+  </tourDescription>
+  <tourImage>denverTour.jpg</tourImage>
+  <tourNaration>en_tourDescription.mp3</tourNaration>
+  <stop>
+    <stopNumber>1</stopNumber>
+    <stopName>Scottish Angus Cow and Calf</stopName>
+    <stopDesc>
+      Artist: Dan Ostermiller
+      Year: 2001
+      
+      Ostermiller designed this cow and calf sculpture to be three times larger than life. He created the sculptures inside his studio, but when completed they were too big to fit through the door. So Ostermiller had to cut the cow and calf into pieces and reassemble them outside. 
+      
+      Take a small side trip down 12th Ave to the Laven Deli Company for a cup of coffee or sandwich, then make a right on Banncock St to find the Kirkland Museum of Fine And Decorative Art, and the Clyfford Still Museum.       
+    </stopDesc>
+    <stopImage>cowAndCalf.jpg</stopImage>
+    <stopNaration>en_cowAndCalf.mp3</stopNaration>
+    <stopLat>39.7354423</stopLat>
+    <stopLng>-104.989106</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>2</stopNumber>
+    <stopName>Big Sweep</stopName>
+    <stopDesc>
+      Artist: Coosje van Bruggen and Claes Oldenburg
+      Year: 2006
+
+      Olendburg and van Bruggen are a husband and wife team, famous for their oversized replica of common objects. Made of aluminum and stainless steel, this 40 foot tall dustpan was inspired by the bright sunlight and strong winds found in Colorado’s oversized prairies.
+
+    The Big Sweep was commissioned in honor of Tom and Noel Congdon. The Congdons are local philanthropists who manage the Edward C. Congdon Memorial Fund, which not only helps support local art education, but also is a contributor to local environmental and humanitarian causes.  
+    </stopDesc>
+    <stopImage>bigSweep.jpg</stopImage>
+    <stopNaration>en_bigSweep.mp3</stopNaration>
+    <stopLat>39.736689</stopLat>
+    <stopLng>-104.988962</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>3</stopNumber>
+    <stopName>At The Library</stopName>
+    <stopDesc>
+      Artist: Barry Rose
+      Year: 1981
+
+      Mr. Rose's description of this piece is as follows: “At the Library” was created with students at Cole Junior High School. Each student sculpted a library book. I filled in with enough to make the rest we needed. I made molds of each and glazed them uniquely, and that was the original project. 
+      
+      In February of 1997, this piece was relocated from it’s original installation, to coincide with the completion of a 500,000 square-foot expansion of the library.
+    </stopDesc>
+    <stopImage>atTheLibrary.jpg</stopImage>
+    <stopNaration>en_atTheLibrary.mp3</stopNaration>
+    <stopLat>39.737593</stopLat>
+    <stopLng>-104.987672</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>4</stopNumber>
+    <stopName>The Yearling</stopName>
+    <stopDesc>
+      Artist: Donald Lipski
+      Year: 1997
+      
+      The Yearling was originally installed in New York City's Central park before finding its forever home at the Denver Library. Lipski says it was intended to give children "a jarring experience of scale, reminiscent of such literature as Gulliver’s Travels, or Alice’s Adventures in Wonderland". Is it a very small horse, or a very big chair? Who knows! But we can all agree, horses on chairs is anarchy. Get off that chair, horse!
+      
+      The Yearling has been voted Denver resident's favorite sculpture.
+    </stopDesc>
+    <stopImage>yearling.jpg</stopImage>
+    <stopNaration>en_yearling.mp3</stopNaration>
+    <stopLat>39.737824</stopLat>
+    <stopLng>-104.988407</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>5</stopNumber>
+    <stopName>Broncho Buster</stopName>
+    <stopDesc>
+      Artist: Alexander Phimister Proctor
+      Year: 1917
+
+      Robert Speer served as Mayor of Denver from 1904 to 1912. During his term, Speer commissioned Proctor to create two equestrian themed monuments for the city. “Broncho Buster” was one half of that commission. Evoking nostalgia for the old-west roots of Denver, I find it interesting to think about the time when it was made. In 1917, the “old west” was fully 60 years past. The instinct to canonize the years of ones youth was strong in a rapidly changing world. It’s not substantially different than the desire of some today to think back on the 1950’s as a better time in our history. The rider is modeled after Bill “Slim” Ridings, a local rodeo rider of the era. 
+    </stopDesc>
+    <stopImage>bronchoBuster.jpg</stopImage>
+    <stopNaration>en_bronchoBuster.mp3</stopNaration>
+    <stopLat>39.738910</stopLat>
+    <stopLng>-104.989064</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>6</stopNumber>
+    <stopName>On the War Trail</stopName>
+    <stopDesc>
+      Artist: Alexander Phimister Proctor
+      Year: 1922
+
+      The second half of Mayor Speer’s commission to Proctor, is “On The War Trail”. Proctor used three models for the rider during the sculpting process. Jackson Sundown of the Nez Pierce, Grey Eagle of the Blackfoot, and Eddie Beaver of Browning Montana. A smarter man could make a leave it to beaver joke here, but I am not that man.  
+    </stopDesc>
+    <stopImage>onTheWarPath.jpg</stopImage>
+    <stopNaration>en_onTheWarPath.mp3</stopNaration>
+    <stopLat>39.738910</stopLat>
+    <stopLng>-104.988657</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>7</stopNumber>
+    <stopName>Sea Lions Fountain</stopName>
+    <stopDesc>
+      Artist: Robert Garrison
+      Year: 1922
+
+      As you quickly scurry past the Sea Lions Fountain, desperately hoping to avoid eye contact with some of Denver’s unhoused residents gathered on the benches nearby, you may fail to notice that the sea lions are being ridden by Cherubs. I could find no information about why a cherub would ride a sea lion, why a sea lion would allow it, or what any of it has to do with Denver. I suggest making up your own story to answer those questions while you wait for the light to change, so you can cross the road to the Pioneer fountain.  
+    </stopDesc>
+    <stopImage>seaLionFountain.jpg</stopImage>
+    <stopNaration>en_seaLionFountain.mp3</stopNaration>    
+    <stopLat>39.740160</stopLat>
+    <stopLng>-104.988860</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>8</stopNumber>
+    <stopName>Pioneer Fountain</stopName>
+    <stopDesc>
+      Artist: Frederick MacMonnies
+      Year: 1911
+
+      When the fountain was originally conceived, a native American was intended to stand at the top, but Denver-ians of the time were unwelcoming to the idea of a Native person standing above the white settlers depicted lower on the fountain. So instead, a statue of Kit Carson – famous for his participation in forcefully removing native peoples from Colorado and driving them to New Mexico (known as the “Long Walk”) – was erected at the top of the fountain. As America continues to wrestle with its history of often brutal and inhuman treatment of native peoples, Kit Carson’s place of honor at the top of Pioneer Fountain became a source of local controversy. In June 2020 he was removed by the City. Debate continues if the rest of the fountain should be allowed to stand. 
+    </stopDesc>
+    <stopImage>pioneerFountain.jpg</stopImage>
+    <stopNaration>en_pioneerFountain.mp3</stopNaration>
+    <stopLat>39.740281</stopLat>
+    <stopLng>-104.987726</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>9</stopNumber>
+    <stopName>Chess Tables</stopName>
+    <stopDesc>
+      Artist: Doug Eichelbergr and Susan Wicks
+      Year: 1992
+      
+      If you want to practice your opening game and get some fresh air at the same time, these chess tables on the 16th street mall are a great option. You'll need to bring your own pieces to actually play, but if you forgot them at home this still makes an excellent spot to sit down and rest your feet. You can admire the intricate mosaic work of the tables while sipping a refreshing coffee drink from one of the many cafes in the area. 
+    </stopDesc>
+    <stopImage>chessTables.jpg</stopImage>
+    <stopNaration>en_chessTables.mp3</stopNaration>
+    <stopLat>39.747626</stopLat>
+    <stopLng>-104.995395</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>10</stopNumber>
+    <stopName>Heard of Cows</stopName>
+    <stopDesc>
+      As you have likely noticed by now, Denver is proud of its heritage as an “old west” town. And nothing says old west quite like a heard of cows. Be careful not to spook them, or you’re start a stampede … a stampede of FUN!
+    </stopDesc>
+    <stopImage>heardOfCows.jpg</stopImage>
+    <stopNaration>en_heardOfCows.mp3</stopNaration>
+    <stopLat>39.749459</stopLat>
+    <stopLng>-104.997755</stopLng>   
+  </stop>
+  <stop>
+    <stopNumber>11</stopNumber>
+    <stopName>Union Spire</stopName>
+    <stopDesc>
+      Artist: Kevin Oehler
+      Year: 1991
+      
+      Union spire, is actually two spires. Commissioned separately, the bottom spire stands 13 feet tall, with the second upper spire adding 9 additional feet to its total height. Union spire is an excellent waypoint on your way to the Cherry Creek trail. Along the cherry creek trail are many murals, some commissioned and some whose providence is less … officially authorized.
+    </stopDesc>
+    <stopImage>unionSpire.jpg</stopImage>
+    <stopNaration>en_unionSpire.mp3</stopNaration>
+    <stopLat>39.749234</stopLat>
+    <stopLng>-105.002659</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>12</stopNumber>
+    <stopName>Petros</stopName>
+    <stopDesc>
+      Artist: Bill Gian
+      Year: 1992
+      
+      Petros is inspired by the petroglyphs left by the first inhabitants of the southwest. This was Gian’s first work in this style, and has since become his hallmark. John Grant, the public art administrator for Denver, says “Gian was an artist who'd never done that kind of work before, but he was very good […] We decided to give him an opportunity in a new genre."
+    </stopDesc>
+    <stopImage>petros.jpg</stopImage>
+    <stopNaration>en_petros.mp3</stopNaration>
+    <stopLat>39.746576</stopLat>
+    <stopLng>-105.000328</stopLng>
+  </stop>
+    <stop>
+    <stopNumber>13</stopNumber>
+    <stopName>Fiberglass Dancers</stopName>
+    <stopDesc>
+      Artist: Jonathon Borofsky
+      Year: 2003
+      
+      Located in the Performing Arts Sculpture Park, the dancers are meant to invoke a feeling of “energy” reflecting the energy of the nearby performing arts complex. The park is a beautiful green space in the downtown, and a great place for an afternoon picknick.
+    </stopDesc>
+    <stopImage>fiberglassDancers.jpg</stopImage>
+    <stopNaration>en_fiberglassDancers.mp3</stopNaration>
+    <stopLat>39.743042</stopLat>
+    <stopLng>-104.999286</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>14</stopNumber>
+    <stopName>I See What You Mean</stopName>
+    <stopDesc>
+      Artist: Lawrence Argent
+      Year: 2005
+      
+      There’s no honey in there, bear!
+
+      Outside the convention center looking in, the big blue bear adds a streak of whimsy to the downtown. Built to specifically for the new convention center, Arget says “I’m always interested in what might be going on in there, the exchange of information, ideas, and ideologies but there’s never really any indication from the outside what’s going on inside.” While coming up with ideas for the sculpture, a regional drought was forcing bears into the downtown area to scavenge for food. And the idea of a giant curious bear was born. 
+
+    </stopDesc>
+    <stopImage>iSeeWhatYouMean.jpg</stopImage>
+    <stopNaration>en_iSeeWhatYouMean.mp3</stopNaration>
+    <stopLat>39.743631</stopLat>
+    <stopLng>-104.995318</stopLng>
+  </stop>
+</pnTour>

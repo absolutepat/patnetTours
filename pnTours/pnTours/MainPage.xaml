@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"              
+             x:Class="pnTours.MainPage"             
+             Title="{Binding tourName, FallbackValue='notfound', TargetNullValue='null'}">
+    <ScrollView x:Name="scrollView">
+        <StackLayout>
+
+            <Picker x:Name="languagePicker" SelectedIndexChanged="languagePicker_SelectedIndexChanged" />
+
+            <!--Map inside grid can be resized from code behind on page load, otherwise it has to be statically set-->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition x:Name="mapGridBox" />
+                </Grid.RowDefinitions>
+                <maps:Map x:Name="map" />
+            </Grid>
+
+            <!--Total distance, esatimated time, and open in native map app button-->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="0" Margin="0" Spacing="25" HeightRequest="25">
+                <Label VerticalTextAlignment="Center" HorizontalOptions="Start" FontSize="Small" Text="{Binding route.overviewRoute.duration, StringFormat='{0}', FallbackValue='notfound', TargetNullValue='null'}"  />
+                <Label VerticalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small" Text="{Binding route.overviewRoute.distance, StringFormat='{0}', FallbackValue='notfound', TargetNullValue='null'}" />
+                <Button VerticalOptions="Center" HorizontalOptions="End" FontSize="Small" Padding="0" Margin="0" Text="Navigate" Clicked="openInMapsButton_Clicked" />
+            </StackLayout>
+
+            <Label FontSize="Title" Padding="30,10,30,10"  Text="{Binding tourName, FallbackValue='notfound', TargetNullValue='null'}"/>
+            <Image x:Name="tourPicture" BackgroundColor="Black" Margin="0" Aspect="AspectFill" TranslationY="7" Source="{Binding tourImageSource, FallbackValue='notfound', TargetNullValue='null'}"/>
+
+            <!--Naration Player Controls-->
+            <Grid BackgroundColor="CornflowerBlue" TranslationY="-7" Padding="0" Margin="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.33*"/>
+                    <ColumnDefinition Width="0.02*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.02*"/>
+                    <ColumnDefinition Width="0.33*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+
+                <Button x:Name="play" Grid.Row="0" Grid.ColumnSpan="5" BackgroundColor="LightGray" Clicked="PlayPauseButton_Clicked"/>
+                <Label Grid.Row="1" Grid.Column="0" TextColor="White" Text="Volume: " HorizontalOptions="Center" VerticalOptions="Center" />
+                <Slider Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Minimum="0" Maximum="1" VerticalOptions="Center" Value="{Binding narationPlayer.volume, Mode=TwoWay}"/>
+                <Button Grid.Row="2" Grid.Column="0" Text="&lt;&lt; 10" VerticalOptions="Center" BackgroundColor="LightGray" Clicked="back10_Clicked"/>
+                <Button Grid.Row="2" Grid.Column="2" Text="Restart" BackgroundColor="LightGray" Clicked="restart_Clicked"/>
+                <Button Grid.Row="2" Grid.Column="4" Text="10 >>" BackgroundColor="LightGray" Clicked="forward10_Clicked"/>
+            </Grid>
+
+            <Label Text="{Binding tourDescription, FallbackValue='notfound', TargetNullValue='null'}" FontSize="16" Padding="30,0,30,0"/>
+
+            <Grid x:Name="stopsGrid" Padding="40" ColumnSpacing="40" RowSpacing="40"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

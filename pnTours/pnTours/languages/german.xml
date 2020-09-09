@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnTour>
+  <languageNumber>2</languageNumber>
+  <languageDisplayName>Deutsche</languageDisplayName>
+  <tourName>Öffentliche Kunstwanderung durch die Innenstadt von Denver</tourName>
+  <tourDescription>
+    Die Stadt Denver hat eine starke Kultur der Unterstützung öffentlicher Kunst. Jedes Kapitalverbesserungsprojekt von mehr als 1 Million Dollar muss 1% seines Budgets für die Einbeziehung öffentlicher Kunst bereitstellen. In den letzten 20 Jahren hat diese Regel dazu geführt, dass mehr als 150 Kunstwerke im öffentlichen Raum in der Stadt installiert wurden.
+
+    Dieser Rundgang führt Sie zu einigen der beliebtesten öffentlichen Kunstwerke in der Innenstadt. Wenn Sie neu in der Stadt sind oder einfach nur Probleme haben, ist diese Tour auch eine gute Gelegenheit, sich in der Innenstadt zurechtzufinden. Es umfasst Stücke in der 16th Street Mall, entlang des Cherry Creek Trail, außerhalb des Capital-Gebäudes und auf dem Gelände des Denver Art Museum.
+
+    Achten Sie beim Gehen zwischen den Haltestellen darauf, dass Sie die Augen nach noch mehr öffentlicher Kunst offen halten. In der Innenstadt gibt es zu viele Wandbilder und Statuen, um sie alle aufzulisten.
+
+    Besonderer Dank geht an das Denver Tourist Board für die Inspiration dieser App. https://www.denver.org/things-to-do/itineraries/downtown-public-art/
+  </tourDescription>
+  <tourImage>denverTour.jpg</tourImage>
+  <tourNaration>de_tourDescription.mp3</tourNaration>
+  <stop>
+    <stopNumber>1</stopNumber>
+    <stopName>Scottish Angus Cow und Kalb</stopName>
+    <stopDesc>
+      Künstler: Dan Ostermiller
+      Jahr: 2001
+
+      Ostermiller entwarf diese Kuh- und Kalbskulptur dreimal so groß wie das Leben. Er schuf die Skulpturen in seinem Atelier, aber als sie fertig waren, waren sie zu groß, um durch die Tür zu passen. Also musste Ostermiller Kuh und Kalb in Stücke schneiden und draußen wieder zusammenbauen.
+
+      Machen Sie einen kleinen Abstecher die 12th Ave hinunter zur Laven Deli Company, um eine Tasse Kaffee oder ein Sandwich zu trinken, und biegen Sie dann rechts in die Banncock Street ab, um das Kirkland Museum für bildende und dekorative Kunst und das Clyfford Still Museum zu finden.
+    </stopDesc>
+    <stopImage>cowAndCalf.jpg</stopImage>
+    <stopNaration>de_cowAndCalf.mp3</stopNaration>
+    <stopLat>39.7354423</stopLat>
+    <stopLng>-104.989106</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>2</stopNumber>
+    <stopName>Big Sweep</stopName>
+    <stopDesc>
+      Künstler: Coosje van Bruggen and Claes Oldenburg
+      Jahr: 2006
+
+      Olendburg und van Bruggen sind ein Ehepaar, das für seine übergroße Nachbildung gemeinsamer Objekte bekannt ist. Diese 40 Fuß hohe Kehrschaufel aus Aluminium und Edelstahl wurde vom hellen Sonnenlicht und den starken Winden in den übergroßen Prärien Colorados inspiriert.
+
+      Der Big Sweep wurde zu Ehren von Tom und Noel Congdon in Auftrag gegeben. Die Congdons sind lokale Philanthropen, die den Edward C. Congdon Memorial Fund verwalten, der nicht nur zur Unterstützung der lokalen Kunstausbildung beiträgt, sondern auch einen Beitrag zu lokalen Umwelt- und humanitären Zwecken leistet.
+    </stopDesc>
+    <stopImage>bigSweep.jpg</stopImage>
+    <stopNaration>de_bigSweep.mp3</stopNaration>
+    <stopLat>39.736689</stopLat>
+    <stopLng>-104.988962</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>3</stopNumber>
+    <stopName>In der Bibliothek</stopName>
+    <stopDesc>
+      Künstler: Barry Rose
+      Jahr: 1981
+
+      Mr. Roses Beschreibung dieses Stücks lautet wie folgt: „At the Library“ wurde mit Schülern der Cole Junior High School erstellt. Jeder Schüler hat ein Bibliotheksbuch entworfen. Ich füllte genug aus, um den Rest zu erledigen, den wir brauchten. Ich habe aus jedem Formen gemacht und sie einzigartig glasiert, und das war das ursprüngliche Projekt.
+
+      Im Februar 1997 wurde dieses Stück aus der ursprünglichen Installation verlegt, zeitgleich mit der Fertigstellung einer 500.000 Quadratmeter großen Erweiterung der Bibliothek.
+    </stopDesc>
+    <stopImage>atTheLibrary.jpg</stopImage>
+    <stopNaration>de_atTheLibrary.mp3</stopNaration>
+    <stopLat>39.737593</stopLat>
+    <stopLng>-104.987672</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>4</stopNumber>
+    <stopName>Der Jährling</stopName>
+    <stopDesc>
+      Künstler: Donald Lipski
+      Jahr: 1997
+
+      Der Yearling wurde ursprünglich im New Yorker Central Park installiert, bevor er in der Denver Library sein Zuhause für immer fand. Lipski sagt, es war beabsichtigt, Kindern "ein erschütterndes Skalenerlebnis zu bieten, das an Literatur wie Gullivers Reisen oder Alices Abenteuer im Wunderland erinnert". Ist es ein sehr kleines Pferd oder ein sehr großer Stuhl? Wer weiß! Aber wir können uns alle einig sein, Pferde auf Stühlen sind Anarchie. Geh von diesem Stuhl, Pferd!
+
+      Der Jährling wurde zur Lieblingsskulptur des Bewohners von Denver gewählt.
+    </stopDesc>
+    <stopImage>yearling.jpg</stopImage>
+    <stopNaration>de_yearling.mp3</stopNaration>
+    <stopLat>39.737824</stopLat>
+    <stopLng>-104.988407</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>5</stopNumber>
+    <stopName>Broncho Buster</stopName>
+    <stopDesc>
+      Künstler: Alexander Phimister Proctor
+      Jahr: 1917
+
+      Robert Speer war von 1904 bis 1912 Bürgermeister von Denver. Während seiner Amtszeit beauftragte Speer Proctor, zwei Denkmäler zum Thema Pferdesport für die Stadt zu schaffen. "Broncho Buster" war die Hälfte dieser Provision. Ich finde Nostalgie nach den Wurzeln des alten Westens von Denver und finde es interessant, über die Zeit nachzudenken, als sie gemacht wurde. 1917 war der „alte Westen“ 60 Jahre alt. Der Instinkt, die Jahre der Jugend zu kanonisieren, war in einer sich schnell verändernden Welt stark. Es ist nicht wesentlich anders als der Wunsch einiger heute, an die 1950er Jahre als eine bessere Zeit in unserer Geschichte zurück zu denken. Der Fahrer ist Bill „Slim“ Ridings nachempfunden, einem lokalen Rodeo-Fahrer dieser Zeit.
+    </stopDesc>
+    <stopImage>bronchoBuster.jpg</stopImage>
+    <stopNaration>de_bronchoBuster.mp3</stopNaration>
+    <stopLat>39.738910</stopLat>
+    <stopLng>-104.989064</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>6</stopNumber>
+    <stopName>Auf dem Kriegspfad</stopName>
+    <stopDesc>
+      Künstler: Alexander Phimister Proctor
+      Jahr: 1922
+
+      Die zweite Hälfte von Bürgermeister Speers Auftrag an Proctor ist "On The War Trail". Proctor verwendete während des Modellierungsprozesses drei Modelle für den Fahrer. Jackson Sundown vom Nez Pierce, Grey Eagle vom Blackfoot und Eddie Beaver von Browning Montana. Ein klügerer Mann könnte es hier einem Biberwitz überlassen, aber ich bin nicht dieser Mann.
+    </stopDesc>
+    <stopImage>onTheWarPath.jpg</stopImage>
+    <stopNaration>de_onTheWarPath.mp3</stopNaration>
+    <stopLat>39.738910</stopLat>
+    <stopLng>-104.988657</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>7</stopNumber>
+    <stopName>Seelöwenbrunnen</stopName>
+    <stopDesc>
+      Künstler: Robert Garrison
+      Jahr: 1922
+
+      Wenn Sie schnell am Seelöwenbrunnen vorbeirennen und verzweifelt hoffen, Augenkontakt mit einigen der nicht untergebrachten Bewohner von Denver zu vermeiden, die sich auf den Bänken in der Nähe versammelt haben, werden Sie möglicherweise nicht bemerken, dass die Seelöwen von Cherubs geritten werden. Ich konnte keine Informationen darüber finden, warum ein Cherub einen Seelöwen reiten würde, warum ein Seelöwe dies zulassen würde oder was irgendetwas davon mit Denver zu tun hat. Ich schlage vor, Ihre eigene Geschichte zu erfinden, um diese Fragen zu beantworten, während Sie darauf warten, dass sich das Licht ändert, damit Sie die Straße zum Pionierbrunnen überqueren können.
+    </stopDesc>
+    <stopImage>seaLionFountain.jpg</stopImage>
+    <stopNaration>de_seaLionFountain.mp3</stopNaration>
+    <stopLat>39.740160</stopLat>
+    <stopLng>-104.988860</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>8</stopNumber>
+    <stopName>Pionierbrunnen</stopName>
+    <stopDesc>
+      Künstler: Frederick MacMonnies
+      Jahr: 1911
+
+      Als der Brunnen ursprünglich konzipiert wurde, sollte ein amerikanischer Ureinwohner an der Spitze stehen, aber die damaligen Denver-Ians waren nicht der Meinung, dass ein Ureinwohner über den weißen Siedlern stehen würde, die unten auf dem Brunnen abgebildet sind. Stattdessen wurde oben auf dem Brunnen eine Statue von Kit Carson aufgestellt, die berühmt dafür ist, dass sie Ureinwohner gewaltsam aus Colorado entfernt und nach New Mexico gefahren hat (bekannt als „Long Walk“). Während Amerika weiterhin mit seiner Geschichte der oft brutalen und unmenschlichen Behandlung einheimischer Völker zu kämpfen hat, wurde Kit Carsons Ehrenplatz an der Spitze des Pionierbrunnens zu einer Quelle lokaler Kontroversen. Im Juni 2020 wurde er von der Stadt entfernt. Die Debatte geht weiter, ob der Rest des Brunnens stehen bleiben soll.
+    </stopDesc>
+    <stopImage>pioneerFountain.jpg</stopImage>
+    <stopNaration>de_pioneerFountain.mp3</stopNaration>
+    <stopLat>39.740281</stopLat>
+    <stopLng>-104.987726</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>9</stopNumber>
+    <stopName>Schachtische</stopName>
+    <stopDesc>
+      Künstler: Doug Eichelbergr and Susan Wicks
+      Jahr: 1992
+
+      Wenn Sie Ihr Eröffnungsspiel üben und gleichzeitig frische Luft schnappen möchten, sind diese Schachtische in der 16th Street Mall eine großartige Option. Sie müssen Ihre eigenen Stücke mitbringen, um tatsächlich spielen zu können, aber wenn Sie sie zu Hause vergessen haben, ist dies immer noch ein ausgezeichneter Ort, um sich hinzusetzen und Ihre Füße auszuruhen. Sie können die komplizierte Mosaikarbeit der Tische bewundern, während Sie ein erfrischendes Kaffeegetränk aus einem der vielen Cafés in der Umgebung genießen.
+    </stopDesc>
+    <stopImage>chessTables.jpg</stopImage>
+    <stopNaration>de_chessTables.mp3</stopNaration>
+    <stopLat>39.747626</stopLat>
+    <stopLng>-104.995395</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>10</stopNumber>
+    <stopName>Von Kühen gehört</stopName>
+    <stopDesc>
+      Wie Sie wahrscheinlich inzwischen bemerkt haben, ist Denver stolz auf sein Erbe als „alte westliche“ Stadt. Und nichts sagt alten Westen so gut wie von Kühen gehört. Pass auf, dass du sie nicht erschreckst, sonst startest du einen Ansturm ... einen Ansturm von SPASS!
+    </stopDesc>
+    <stopImage>heardOfCows.jpg</stopImage>
+    <stopNaration>de_heardOfCows.mp3</stopNaration>
+    <stopLat>39.749459</stopLat>
+    <stopLng>-104.997755</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>11</stopNumber>
+    <stopName>Union Spire</stopName>
+    <stopDesc>
+      Künstler: Kevin Oehler
+      Jahr: 1991
+
+      Union Spire, ist eigentlich zwei Türme. Der untere Turm wird separat in Betrieb genommen und ist 13 Fuß hoch. Der zweite obere Turm erhöht die Gesamthöhe um 9 zusätzliche Fuß. Union Spire ist ein ausgezeichneter Wegpunkt auf Ihrem Weg zum Cherry Creek Trail. Entlang des Cherry Creek Trail befinden sich viele Wandgemälde, einige in Auftrag gegeben und einige, deren Vorsehung weniger… offiziell genehmigt ist.
+    </stopDesc>
+    <stopImage>unionSpire.jpg</stopImage>
+    <stopNaration>de_unionSpire.mp3</stopNaration>
+    <stopLat>39.749234</stopLat>
+    <stopLng>-105.002659</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>12</stopNumber>
+    <stopName>Petros</stopName>
+    <stopDesc>
+      Künstler: Bill Gian
+      Jahr: 1992
+
+      Petros ist inspiriert von den Petroglyphen, die die ersten Bewohner des Südwestens hinterlassen haben. Dies war Gians erste Arbeit in diesem Stil und ist seitdem sein Markenzeichen. John Grant, der öffentliche Kunstverwalter für Denver, sagt: "Gian war ein Künstler, der diese Art von Arbeit noch nie zuvor gemacht hatte, aber er war sehr gut. […] Wir haben beschlossen, ihm eine Gelegenheit in einem neuen Genre zu geben."
+    </stopDesc>
+    <stopImage>petros.jpg</stopImage>
+    <stopNaration>de_petros.mp3</stopNaration>
+    <stopLat>39.746576</stopLat>
+    <stopLng>-105.000328</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>13</stopNumber>
+    <stopName>Fiberglastänzer</stopName>
+    <stopDesc>
+      Künstler: Jonathon Borofsky
+      Jahr: 2003
+
+      Die Tänzer, die sich im Skulpturenpark für darstellende Künste befinden, sollen ein Gefühl von „Energie“ hervorrufen, das die Energie des nahe gelegenen Komplexes für darstellende Künste widerspiegelt. Der Park ist eine wunderschöne Grünfläche in der Innenstadt und ein großartiger Ort für ein Picknick am Nachmittag.
+    </stopDesc>
+    <stopImage>fiberglassDancers.jpg</stopImage>
+    <stopNaration>de_fiberglassDancers.mp3</stopNaration>
+    <stopLat>39.743042</stopLat>
+    <stopLng>-104.999286</stopLng>
+  </stop>
+  <stop>
+    <stopNumber>14</stopNumber>
+    <stopName>Ich verstehe was du meinst</stopName>
+    <stopDesc>
+      Künstler: Lawrence Argent
+      Jahr: 2005
+
+      Da ist kein Honig drin, Bär!
+
+      Außerhalb des Kongresszentrums verleiht der große blaue Bär der Innenstadt einen Hauch von Laune. Arget wurde speziell für das neue Kongresszentrum entwickelt und sagt: "Ich bin immer daran interessiert, was dort vor sich geht, wie Informationen, Ideen und Ideologien ausgetauscht werden, aber von außen gibt es nie wirklich Hinweise darauf, was im Inneren vor sich geht." Bei der Entwicklung von Ideen für die Skulptur zwang eine regionale Dürre Bären in die Innenstadt, nach Nahrung zu suchen. Und die Idee eines riesigen neugierigen Bären wurde geboren.
+    </stopDesc>
+    <stopImage>iSeeWhatYouMean.jpg</stopImage>
+    <stopNaration>de_iSeeWhatYouMean.mp3</stopNaration>
+    <stopLat>39.743631</stopLat>
+    <stopLng>-104.995318</stopLng>
+  </stop>
+</pnTour>

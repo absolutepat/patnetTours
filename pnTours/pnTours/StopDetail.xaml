@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="pnTours.StopDetail"
+             Title="{Binding tourName, FallbackValue='notfound', TargetNullValue='null'}">
+    <ScrollView x:Name="scrollView">
+        <StackLayout>
+
+            <!--Map inside grid can be resized from code behind on page load, otherwise it has to be statically set-->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition x:Name="mapGridBox"/>
+                </Grid.RowDefinitions>
+                <maps:Map x:Name="map" />
+            </Grid>
+
+            <!--Map directions mode, distance to stop, and open in native map app button-->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="0" Margin="0" Spacing="25" HeightRequest="25">
+                <Label VerticalTextAlignment="Center" HorizontalOptions="Start"  FontSize="Small" Text="{Binding route.googleHelper.mode, StringFormat='{0}', FallbackValue='notfound', TargetNullValue='null'}"/>
+                <Label VerticalTextAlignment="Center" HorizontalOptions="Start" FontSize="Small" Text="{Binding route.googleHelper.distance, StringFormat='{0}', FallbackValue='notfound', TargetNullValue='null'}"/>
+                <Button Clicked="openInMapsButton_Clicked" VerticalOptions="End" HorizontalOptions="End" FontSize="Small" Padding="0" Margin="0"  Text="Navigate"/>
+            </StackLayout>
+
+            <!--Stop name and picture-->
+            <Label x:Name="stopNameLabel" FontSize="Title" HorizontalTextAlignment="Center" FontAttributes="Bold" TextDecorations="Underline" Text="{Binding stopName, FallbackValue='notfound', TargetNullValue='null'}"/>
+            <Image x:Name="stopPicture" BackgroundColor="Black" Margin="0" Aspect="AspectFill" TranslationY="7" Source="{Binding stopImageSource}" />
+
+
+            <!--Naration Player Controls-->
+            <Grid BackgroundColor="CornflowerBlue" TranslationY="-7" Padding="0" Margin="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.33*"/>
+                    <ColumnDefinition Width="0.02*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.02*"/>
+                    <ColumnDefinition Width="0.33*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+
+                <Button x:Name="play" Grid.Row="0" Grid.ColumnSpan="5" BackgroundColor="LightGray" Clicked="PlayPauseButton_Clicked"/>
+                <Label Grid.Row="1" Grid.Column="0" TextColor="White" Text="Volume: " HorizontalOptions="Center" VerticalOptions="Center" />
+                <Slider Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Minimum="0" Maximum="1" VerticalOptions="Center" Value="{Binding narationPlayer.volume, Mode=TwoWay}"/>
+                <Button Grid.Row="2" Grid.Column="0" Text="&lt;&lt; 10" VerticalOptions="Center" BackgroundColor="LightGray" Clicked="back10_Clicked"/>
+                <Button Grid.Row="2" Grid.Column="2" Text="Restart" BackgroundColor="LightGray" Clicked="restart_Clicked"/>
+                <Button Grid.Row="2" Grid.Column="4" Text="10 >>" BackgroundColor="LightGray" Clicked="forward10_Clicked"/>
+            </Grid>
+
+            <!--Stop Description-->
+            <Label x:Name="stopDesc" FontSize="16" Padding="30,0,30,0" Text="{Binding stopDesc, FallbackValue='notfound', TargetNullValue='null'}" />
+
+            <!--Navigation-->
+            <Grid BackgroundColor="DarkGray">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.05*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.05*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" x:Name="previousStopButton" Clicked="previousStopButton_Clicked" Text="&lt;&lt;&lt;&lt;" />
+                <Button Grid.Row="0" Grid.Column="2" x:Name="homeButton" Clicked="homeButton_Clicked" Text="Home" />
+                <Button Grid.Row="0" Grid.Column="4" x:Name="nextStopButton" Clicked="nextStopButton_Clicked" Text=">>>>" />
+            </Grid>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
