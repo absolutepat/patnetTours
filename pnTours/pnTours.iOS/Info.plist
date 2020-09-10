@@ -27,7 +27,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>net.patnet.DowntownDenverPublicArtWalkingTour</string>
 	<key>CFBundleVersion</key>
-	<string>1.01</string>
+	<string>1.02</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
@@ -35,7 +35,7 @@
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Can we use your location at all times?</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Can we use your location when your application is being used?</string>
+	<string>This app can show your current position, and draw a route to the precise location of the art installation. It will also tell you how far away you are, so you can plan your time better. If you choose not to enable location, the app will still work, just without these features – the map will only show the location of the art.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Can we use your location at all times?</string>
 	<key>NSCalendarsUsageDescription</key>
