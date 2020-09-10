@@ -17,8 +17,9 @@
 
             <!--Map directions mode, distance to stop, and open in native map app button-->
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="0" Margin="0" Spacing="25" HeightRequest="25">
-                <Label VerticalTextAlignment="Center" HorizontalOptions="Start"  FontSize="Small" Text="{Binding route.googleHelper.mode, StringFormat='{0}', FallbackValue='notfound', TargetNullValue='null'}"/>
-                <Label VerticalTextAlignment="Center" HorizontalOptions="Start" FontSize="Small" Text="{Binding route.googleHelper.distance, StringFormat='{0}', FallbackValue='notfound', TargetNullValue='null'}"/>
+                <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Start"  FontSize="Small" Text="{Binding route.googleHelper.mode, StringFormat='{0}:', FallbackValue='notfound', TargetNullValue='null'}"/>
+                <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Start"   FontSize="Small" Text="{Binding route.googleHelper.duration, StringFormat='{0}', FallbackValue='notfound', TargetNullValue='null'}"/>
+                <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Small" Text="{Binding route.googleHelper.distance, StringFormat='{0}', FallbackValue='notfound', TargetNullValue='null'}"/>
                 <Button Clicked="openInMapsButton_Clicked" VerticalOptions="End" HorizontalOptions="End" FontSize="Small" Padding="0" Margin="0"  Text="Navigate"/>
             </StackLayout>
 

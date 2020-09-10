@@ -15,6 +15,9 @@ namespace pnTours
         {
             InitializeComponent();
             BindingContext = tour;
+            
+            //Invoke request for location permision earlier
+            _ = tour.route.GetCurrentLocation();
 
             //make map inside scrollview work like a user expects
             if (Device.RuntimePlatform == Device.iOS)
